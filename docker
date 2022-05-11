@@ -1,0 +1,11 @@
+docker build -t josukekung/docker-react1 .
+
+# remove all container
+docker rm $(docker ps -a -q)
+
+docker rm [container]
+docker rmi [images]
+
+docker run -p 3000:3000 josukekung/docker-react1
+
+docker run -it -v ${PWD}:/usr/src/app -v /usr/src/app/node_modules -p 3000:3000 --rm  josukekung/docker-react1
