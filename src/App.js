@@ -105,7 +105,7 @@ class App extends Component {
                 <li className="list-inline-item" onClick={() => this.searchNews('','')}>News</li>
                 <li className="list-inline-item" onClick={() => this.searchNews('Regions', 'type')}>Regions</li>
                 <li className="list-inline-item" onClick={() => this.searchNews('Video', 'type')}>Video</li>
-                <li className="list-inline-item" onClick={() => this.searchNews('Tv', 'type')}>TV</li>
+                <li className="list-inline-item" onClick={() => this.searchNews('TV', 'type')}>TV</li>
               </ul>      
             </div>
             <div className="col-3">
